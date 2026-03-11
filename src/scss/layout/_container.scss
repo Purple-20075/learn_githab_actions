@@ -1,0 +1,35 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero{
+    padding: 80px 15px;
+    &__img img{
+        width: 100%;
+        height: auto;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+.footer {
+    background: #2d2d4a;
+    color: #9d9dbd;
+    padding: 30px 0;
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__links a{
+        color: #9d9dbd;
+        text-decoration: none;
+        margin-left: 20px;
+        &:hover{color:white;}
+    }
+}

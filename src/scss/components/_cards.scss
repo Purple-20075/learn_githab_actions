@@ -1,0 +1,14 @@
+.choose{
+    &__card{
+        box-shadow: 0 0 15px rgba(0,0,0 0.219);
+        padding: 1.5rem 2.5rem;
+        border-radius: 15px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        p{
+            line-height: 30px;
+        }
+    }
+}
